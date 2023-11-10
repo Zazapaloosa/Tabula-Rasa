@@ -1,0 +1,60 @@
+body{
+
+}
+header nav{
+    background-color: yellow;
+    margin:0;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    float: left;
+}
+nav ul li {
+    display: inline-block;
+    background-color: #ddd;
+}
+nav a {
+    display: block;
+    padding: 0 10px;
+    font-size: 1eem;
+    line-height: 40px;
+    text-decoration: none;
+
+}
+header nav a:hover{
+    background-color: black;
+}
+.menu {
+    display: none;
+}
+.main {
+    background-color: blueviolet;
+    clear: both;
+}
+div {
+    background-color: white;
+}
+footer { 
+    background-color: rgba(255,0,0,1);
+}
+
+
+@media all and (max-width:740px){
+    header nav ul li {
+        display: block;
+        text-align: center;
+    }
+    header nav ul {
+        width: 100%;
+    }
+    .menu {
+        display: block;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+}
